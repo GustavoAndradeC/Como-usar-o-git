@@ -31,6 +31,29 @@ Faça o commit das alterações:
 git commit -m "Mensagem do commit"
 ```
 
+Commit com emoji:
+```
+git commit -m ":NomeDoEmoji: Mensagem do commit"
+```
+
+## Como adicionar um `Repositório Remoto`
+
+```
+git remote add (Nome do repositorio remoto) https://github.com/(Perfil)/(Projeto).git
+```
+
+## Como `listar` todos os `remotes conectados `
+
+```
+git remote -v
+```
+
+## Como `remover` um `remote`
+
+```
+git remote remove (Nome do repositorio remoto)
+```
+
 ## Criar um `Branch`
 Para criar um novo branch e mudar para ele:
 ```
@@ -63,7 +86,7 @@ git merge nome-do-branch
 
 ## Enviar Alterações para um `Repositório Remoto`
 ```
-git push origin nome-do-branch
+git push (Nome do repositório remoto) nome-do-branch
 ```
 
 ##
